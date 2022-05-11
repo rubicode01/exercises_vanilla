@@ -1,6 +1,6 @@
 const fs = require('fs');
 const content = 'Hello';
-fs.writeFile('test.html', content, err =>{
+fs.writeFile('exercise3.js', content, err =>{
     if(err) {
         console.error(err);
     }
